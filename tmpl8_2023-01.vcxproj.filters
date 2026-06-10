@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="template\template.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="template\opencl.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="template\opengl.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="template\sprite.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="template\surface.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="template\tmpl8math.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="map\tilemap.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="map\background.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="map\object\collectible\collectible.cpp">
+      <Filter>map\object\collectible</Filter>
+    </ClCompile>
+    <ClCompile Include="map\object\rope\rope.cpp">
+      <Filter>map\object\rope</Filter>
+    </ClCompile>
+    <ClCompile Include="map\object\pit\pit.cpp">
+      <Filter>map\object\pit</Filter>
+    </ClCompile>
+    <ClCompile Include="map\object\log\log.cpp">
+      <Filter>map\object\log</Filter>
+    </ClCompile>
+    <ClCompile Include="map\entity\scorpion\scorpion.cpp">
+      <Filter>map\entity\scorpion</Filter>
+    </ClCompile>
+    <ClCompile Include="map\object\hazard\hazard.cpp">
+      <Filter>map\object\hazard</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\camera\camera.cpp">
+      <Filter>utility\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\score\score.cpp">
+      <Filter>utility\score</Filter>
+    </ClCompile>
+    <ClCompile Include="map\entity\player\player.cpp">
+      <Filter>map\entity\player</Filter>
+    </ClCompile>
+    <ClCompile Include="map\object\alligator\alligator.cpp">
+      <Filter>map\object\alligator</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\menumanager.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="map\object\finish\finish.cpp">
+      <Filter>map\object\finish</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\button\button.cpp">
+      <Filter>utility\button</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="template\common.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template\precomp.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h" />
+    <ClInclude Include="cl\tools.cl">
+      <Filter>template\cl</Filter>
+    </ClInclude>
+    <ClInclude Include="template\opencl.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template\opengl.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template\sprite.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template\surface.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template\tmpl8math.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="map\tilemap.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="map\background.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="map\object\collectible\collectible.h">
+      <Filter>map\object\collectible</Filter>
+    </ClInclude>
+    <ClInclude Include="map\object\rope\rope.h">
+      <Filter>map\object\rope</Filter>
+    </ClInclude>
+    <ClInclude Include="map\object\pit\pit.h">
+      <Filter>map\object\pit</Filter>
+    </ClInclude>
+    <ClInclude Include="map\object\log\log.h">
+      <Filter>map\object\log</Filter>
+    </ClInclude>
+    <ClInclude Include="map\entity\scorpion\scorpion.h">
+      <Filter>map\entity\scorpion</Filter>
+    </ClInclude>
+    <ClInclude Include="map\object\hazard\hazard.h">
+      <Filter>map\object\hazard</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\camera\camera.h">
+      <Filter>utility\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\score\score.h">
+      <Filter>utility\score</Filter>
+    </ClInclude>
+    <ClInclude Include="map\entity\player\player.h">
+      <Filter>map\entity\player</Filter>
+    </ClInclude>
+    <ClInclude Include="map\object\alligator\alligator.h">
+      <Filter>map\object\alligator</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\button\button.h">
+      <Filter>utility\button</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\menumanager.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="map\object\finish\finish.h">
+      <Filter>map\object\finish</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="template\LICENSE">
+      <Filter>template</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>template</Filter>
+    </None>
+    <None Include="cl\kernels.cl">
+      <Filter>template\cl</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="template">
+      <UniqueIdentifier>{a7d6e3cb-bfcd-438d-979f-17df241a55b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="template\cl">
+      <UniqueIdentifier>{dc41819e-b6c1-4070-b4c1-0849e444ca7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map">
+      <UniqueIdentifier>{d5400a5c-7245-4035-b4e7-201f42a562f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{094fe54a-9b7b-40de-bc08-d7679343b7ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\camera">
+      <UniqueIdentifier>{d3e0a839-ad5d-4a37-83ed-3da496d9f74b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\score">
+      <UniqueIdentifier>{a157e588-8a72-4062-bea0-4d95989ff503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\entity">
+      <UniqueIdentifier>{754dccdf-25b7-43cc-843b-b419f5f2821f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\object">
+      <UniqueIdentifier>{5ec15776-7020-4117-a01d-8a612fa3803d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\object\collectible">
+      <UniqueIdentifier>{3cbd28a5-9870-4eea-ade3-b0b0beee5895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\object\rope">
+      <UniqueIdentifier>{7c58bc73-fa91-4515-a6d7-8b9bd59346ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\object\pit">
+      <UniqueIdentifier>{7bd3790a-9c7c-44f3-82ae-1df2e93ea5e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\object\log">
+      <UniqueIdentifier>{6b541295-16ab-4768-849d-3cabcd3bf615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\object\hazard">
+      <UniqueIdentifier>{f03d223f-3d3e-4602-b7e7-2e6f553286f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\entity\scorpion">
+      <UniqueIdentifier>{d4689f4d-ad4f-4da6-a3ba-be99501b8366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\entity\player">
+      <UniqueIdentifier>{e9f3c1a2-7b62-4f25-b20d-bb5097862dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\object\alligator">
+      <UniqueIdentifier>{2ee30ebf-5c73-4015-9ef9-ec445fd66f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\button">
+      <UniqueIdentifier>{9b2bf554-4537-4ccb-b61f-9982adda3735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{3346958b-dcfe-4410-a75c-79f5dec776d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\object\finish">
+      <UniqueIdentifier>{e85f856d-42cf-42c7-8884-82db8e5f8e6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
